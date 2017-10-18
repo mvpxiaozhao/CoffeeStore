@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CoffeeStore</string>
+    <string name="btn_idea">功能意见</string>
+    <string name="btn_yes">提交</string>
+    <string name="et_good">您的反馈将帮助我们更快的成长</string>
+    <string name="btn_qq">意见反馈QQ:2695118008</string>
+    <string name="btn_wechat">意见反馈微信:2695118008</string>
+    <string name="btn_mail">意见反馈邮箱:zhangshengjian@163.com</string>
+    <string name="tv_style_title">咖啡1</string>
+    <string name="tv_style_content">简介</string>
+    <string name="tv_style_price">30</string>
+    <string name="tv_intro">爱尔兰咖啡（Irish Coffee），是一种既像酒又像咖啡的咖啡，由爱尔兰威士忌加入浓缩咖啡中，再在最上面放上一层鲜奶油构制而成。可以这样说，爱尔兰咖啡是一种含有酒精的咖啡。</string>
+    <string name="coffee1">香妃焦糖布雷</string>
+    <string name="coffee2">暖心姜汁拿铁</string>
+    <string name="coffee3">玛奇朵</string>
+    <string name="coffee4">漂浮手冲咖啡</string>
+</resources>

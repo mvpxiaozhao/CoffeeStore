@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.coffeestore.Activity.MainActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/main_ViewPager"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </android.support.v4.view.ViewPager>
+
+
+    <RadioGroup
+            android:id="@+id/tabs_rg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="1dp"
+            android:paddingTop="1dp">
+
+            <RadioButton
+                android:id="@+id/RB_a"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/selector_tab"
+                android:button="@null"
+                android:checked="true"
+                android:drawableTop="@drawable/zhuye"
+                android:gravity="center"
+
+                android:text="主页"
+                android:textColor="#000000"
+                android:textSize="13sp" />
+
+            <RadioButton
+                android:id="@+id/RB_b"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/selector_tab"
+                android:button="@null"
+                android:drawableTop="@drawable/fenleiee"
+                android:gravity="center"
+
+                android:text="分类"
+                android:textColor="#000000"
+                android:textSize="13sp" />
+
+            <RadioButton
+                android:id="@+id/RB_c"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/selector_tab"
+                android:button="@null"
+                android:drawableTop="@drawable/suosuo"
+                android:gravity="center"
+
+                android:text="搜索"
+                android:textColor="#000000"
+                android:textSize="13sp" />
+
+            <RadioButton
+                android:id="@+id/RB_d"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/selector_tab"
+                android:button="@null"
+                android:drawableTop="@drawable/gouwu"
+                android:gravity="center"
+                android:text="购物车"
+                android:textColor="#000000"
+                android:textSize="13sp" />
+
+            <RadioButton
+                android:id="@+id/RB_e"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/selector_tab"
+                android:button="@null"
+                android:drawableTop="@drawable/wode"
+                android:gravity="center"
+                android:text="个人"
+                android:textColor="#000000"
+                android:textSize="13sp" />
+
+        </RadioGroup>
+
+
+</LinearLayout>

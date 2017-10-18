@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    tools:context="com.example.dell.coffeestore.Activity.RegisterActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:gravity="center_horizontal|center"
+        android:text="欢迎来到注册页面" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <EditText
+            android:id="@+id/editText_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:ems="10"
+            android:hint="输入用户名"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText_user_pass"
+            android:layout_width="match_parent"
+            android:layout_margin="2dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="输入密码"
+            android:inputType="textPassword" />
+
+
+        <EditText
+            android:id="@+id/editText_user_sex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:ems="10"
+            android:hint="输入性别"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText_user_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:ems="10"
+            android:hint="输入电话"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_user_ok"
+        android:layout_width="match_parent"
+        android:layout_margin="2dp"
+        android:layout_height="wrap_content"
+        android:text="注册" />
+
+    <Button
+        android:id="@+id/Button_user_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:text="查看所有" />
+
+    <Button
+        android:id="@+id/Button_user_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回" />
+
+    <TextView
+        android:id="@+id/textView_user_chulai"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="" />
+</LinearLayout>

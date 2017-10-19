@@ -7,5 +7,7 @@ package com.example.dell.coffeestore.Class;
 public class frag {
  //asdasdasdasd
     int asssdad=11;
+    int dsfsv=23;
+    int dududud=23;
 
 }
